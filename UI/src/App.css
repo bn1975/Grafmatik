@@ -1,0 +1,114 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  width: 100%;
+}
+
+.navbar {
+  background:transparent;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  background-color: yellow;
+  border: 3px solid black;
+  bottom: 0px;
+}
+
+.splatter {
+  height:  800px;
+  width: 800px;
+  left: -650px;
+  top: -300px;
+  position: relative;
+  /*display: block;*/
+  z-index: 1;
+  opacity: 0.5;
+  /*opacity: .5;*/
+}
+
+.can {
+  height:  70%px;
+  width: 50%;
+  right: -200px;
+  top: 100px;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-7deg);
+  opacity: .5;
+}
+
+.sign {
+  position: relative;
+  vertical-align: bottom;
+  color: red;
+  background-color: black;
+}
+
+.btn-link {
+  position: relative;
+  top: 7px;
+  right: 4px;
+}
+
+.bottom {
+  height: 50%;
+  width: 100%;
+  background-color: brown;
+  position: relative;
+  top: 5%;
+  left: 0px;
+}
+
+.media {
+  top: 0px;
+  width: 100%;
+  position: relative;
+  z-index: 20;
+}
+
+#instafeed {
+  width: 100%;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  top: 0%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+.grafmatik {
+  color: blue;
+  font-size: 30px;
+  top: 5%;
+  z-index: 20;
+}
+
+/*MAP STUFF*/
+.leaflet-container {
+  border: solid black 4px;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  /*z-index: 50;*/
+}
+
+.mapbox {
+  height: 50%;
+}

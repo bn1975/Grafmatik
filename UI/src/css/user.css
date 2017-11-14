@@ -1,0 +1,65 @@
+html body {
+  background-color: white;
+  /*border: solid 5px blue;*/
+  height: 100%;
+  width: 100%
+}
+
+.App {
+  text-align: center;
+  min-height: 100%;
+}
+
+.App-header {
+  width: 100%;
+  /*height: auto;*/
+  /*background-color: black;
+  border: 3px solid red;*/
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.nav {
+  text-align: left;
+  z-index: 10;
+}
+
+footer {
+  width: 100%;
+  /*background-color: yellow;
+  border: 3px solid black;*/
+  height: 50px;
+  margin-top: -50px;
+}
+
+.grafmatik {
+  position: absolute;
+  font-size: 70px;
+  /*color: orange;*/
+  top: 12%;
+  left: 12%;
+  /*transform: translate(-50%, -50%);*/
+  z-index: 5;
+}
+
+.splatter {
+  height:  1200px;
+  width: 1200px;
+  left: -550px;
+  top: -550px;
+  position: relative;
+  /*display: block;*/
+  z-index: 1;
+}
+
+.can {
+  height:  750px;
+  width: 50%;
+
+}
